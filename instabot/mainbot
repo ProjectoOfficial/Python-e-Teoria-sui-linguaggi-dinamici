@@ -1,0 +1,11 @@
+from instabot import bot
+
+username = 'nome utente'
+password = 'la tua password'
+profile = 'profilo target'
+
+stop = 0
+start = 5
+
+bot = bot.InstaBot(username, password)
+bot.work_sequentially(profile,stop,start)
